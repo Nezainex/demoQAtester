@@ -1,0 +1,61 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Selenide (Убедитесь, что версия актуальна)
+    implementation 'com.codeborne:selenide:7.5.1'
+
+    // Allure Selenide
+    implementation 'io.qameta.allure:allure-selenide:2.29.0'
+
+    // Allure JUnit 5
+    testImplementation 'io.qameta.allure:allure-junit5:2.29.0'
+
+    // WebDriverManager
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
+
+    // REST Assured (для API тестирования)
+    testImplementation 'io.rest-assured:rest-assured:5.5.0'
+
+    // Log4j для логирования
+    implementation 'org.apache.logging.log4j:log4j-api:2.24.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.24.0'
+    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.24.0'
+    implementation 'org.slf4j:slf4j-api:2.0.16'
+
+    // JUnit Jupiter (для замены TestNG)
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+
+    // Ограничьте количество JVM процессов до 1
+    maxParallelForks = 1
+
+    // Включите параллельное выполнение
+    systemProperty 'junit.jupiter.execution.parallel.enabled', 'true'
+    systemProperty 'junit.jupiter.execution.parallel.mode.default', 'concurrent'
+    systemProperty 'junit.jupiter.execution.parallel.mode.classes.default', 'concurrent'
+
+    // Ограничьте до 4 параллельных потоков
+    systemProperty 'junit.jupiter.execution.parallel.config.fixed.parallelism', '4'
+
+    // Настройка стратегии
+    systemProperty 'junit.jupiter.execution.parallel.config.strategy', 'dynamic'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs << "-Xlint:deprecation"
+}
+
+
+
+
+
