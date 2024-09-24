@@ -2,19 +2,19 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import pages.ProgressBarPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ProgressBarTest {
 
     private final ProgressBarPage progressBarPage = new ProgressBarPage();
 
-    @BeforeEach
+    @BeforeAll
     public void setUp() {
         WebDriverManager.firefoxdriver().setup();
         Configuration.browser = "firefox";
@@ -27,19 +27,21 @@ public class ProgressBarTest {
     }
 
     @Test
+    @Order(1)
     public void testProgressBarComplete() {
         progressBarPage.clickStartStopButton();  // Запускаем прогресс-бар
         progressBarPage.waitForProgressBarToComplete();  // Ждём, пока прогресс не дойдёт до 100%
     }
 
     @Test
+    @Order(2)
     public void testResetProgressBar() {
         progressBarPage.waitForProgressBarToComplete();  // Ждём, пока прогресс не дойдёт до 100%
         progressBarPage.clickResetButton();  // Сбрасываем прогресс-бар
         progressBarPage.waitForProgressBarToReset();  // Ждём, пока прогресс не сбросится до 0%
     }
 
-    @AfterEach
+    @AfterAll
     public void tearDown() {
         try {
             // Закрываем все окна, если они существуют

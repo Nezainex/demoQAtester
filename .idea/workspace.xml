@@ -5,228 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bd5163-2425-4f81-ac59-af402a48f57e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/config/allure-cucumber.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/config/allure-junit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/config/allure.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/allure-commandline-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/allure-generator-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/allure-model-2.28.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/allure-plugin-api-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/allure1-model-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/annotations-15.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-collections4-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-io-2.16.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-lang3-3.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/commons-text-1.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/config/jetty-logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/config/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-ext-tables-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-ast-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-builder-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-collection-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-data-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-dependency-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-format-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-html-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-misc-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-options-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-sequence-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/flexmark-util-visitor-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/freemarker-2.3.33.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/httpclient-4.5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/httpcore-4.4.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jackson-annotations-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jackson-core-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jackson-databind-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jackson-dataformat-xml-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jackson-dataformat-yaml-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jackson-module-jaxb-annotations-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jakarta.activation-api-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jakarta.xml.bind-api-2.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jaxb-utils-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jcommander-1.82.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jetty-http-9.4.53.v20231009.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jetty-io-9.4.53.v20231009.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jetty-server-9.4.53.v20231009.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/jetty-util-9.4.53.v20231009.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/logback-classic-1.3.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/logback-core-1.3.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/opencsv-5.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/properties-2.0.RC5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/slf4j-api-2.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/snakeyaml-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/stax2-api-4.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/tika-core-2.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/lib/woodstox-core-6.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/behaviors-plugin/behaviors-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/behaviors-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/custom-logo-plugin/custom-logo-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/jira-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/allure-jira-commons-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/annotations-13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/converter-jackson-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/jackson-annotations-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/jackson-core-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/jackson-databind-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/kotlin-stdlib-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/kotlin-stdlib-common-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/kotlin-stdlib-jdk7-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/kotlin-stdlib-jdk8-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/okhttp-4.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/okio-jvm-3.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/jira-plugin/lib/retrofit-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/junit-xml-plugin/junit-xml-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/packages-plugin/packages-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/packages-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/screen-diff-plugin/screen-diff-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/trx-plugin/trx-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xctest-plugin/xctest-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/allure-jira-commons-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/annotations-13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/converter-jackson-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/jackson-annotations-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/jackson-core-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/jackson-databind-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/kotlin-stdlib-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/kotlin-stdlib-common-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/kotlin-stdlib-jdk7-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/kotlin-stdlib-jdk8-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/okhttp-4.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/okio-jvm-3.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/lib/retrofit-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xray-plugin/xray-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/allure-2.30.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.30.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/PracticeFormData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/WebTableData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/AccordianLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/AlertLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/AutoCompleteLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/BrokenLinksLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/BrowserWindowsLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/ButtonsLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/CheckBoxLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/DatePickerLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/DraggableLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/DroppableLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/DynamicPropertiesLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/FrameLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LinksLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/MenuLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/ModalDialogLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/NestedFrameLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/PracticeFormLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/ProgressBarLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/RadioButtonLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/ResizableLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/SelectMenuLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/SelectableLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/SliderLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/SortableLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/TabsLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/TextBoxLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/ToolTipsLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/UploadDownloadLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locators/WebTableLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AccordianPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutoCompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BrokenLinksPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BrowserWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CheckBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DatePickerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DraggablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DroppablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicPropertiesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FramePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LinksPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ModalDialogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NestedFramePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PracticeFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProgressBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RadioButtonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ResizablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SelectMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SelectablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SortablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TabsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TextBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ToolTipsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/UploadDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WebTablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SharedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sampleFile.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AccordianTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AlertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AutoCompleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BrokenLinksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BrowserWindowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ButtonsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CheckBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DatePickerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DraggableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DroppableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DynamicPropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LinksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ModalDialogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/NestedFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ProgressBarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RadioButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ResizableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelectMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelectableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SortableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TabsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ToolTipsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UploadDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProgressBarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ProgressBarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,29 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AccordianTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AccordianTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AccordianTest.testSection1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AlertTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckBoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DynamicPropertiesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RadioButtonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SliderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TabsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Username/IdeaProjects/demoQAmaster&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AccordianTest (1).executor": "Run",
+    "Gradle.AccordianTest.executor": "Run",
+    "Gradle.AccordianTest.testSection1.executor": "Run",
+    "Gradle.AlertTest.executor": "Run",
+    "Gradle.CheckBoxTest.executor": "Run",
+    "Gradle.DynamicPropertiesTest.executor": "Run",
+    "Gradle.ProgressBarTest.executor": "Run",
+    "Gradle.RadioButtonTest.executor": "Run",
+    "Gradle.SliderTest.executor": "Run",
+    "Gradle.TabsTest.executor": "Run",
+    "Gradle.TextBoxTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Username/IdeaProjects/demoQAmaster",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Username\IdeaProjects\demoQAtester\allure\allure-2.30.0" />
@@ -312,7 +94,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SliderTest">
+  <component name="RunManager" selected="Gradle.ProgressBarTest">
     <configuration name="AccordianTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -337,30 +119,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AlertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.AlertTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="DynamicPropertiesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -375,6 +133,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.DynamicPropertiesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProgressBarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ProgressBarTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -435,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProgressBarTest" />
         <item itemvalue="Gradle.SliderTest" />
         <item itemvalue="Gradle.DynamicPropertiesTest" />
         <item itemvalue="Gradle.TabsTest" />
         <item itemvalue="Gradle.AccordianTest" />
-        <item itemvalue="Gradle.AlertTest" />
       </list>
     </recent_temporary>
   </component>

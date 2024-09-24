@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-    // Selenide (Убедитесь, что версия актуальна)
+    // Selenide
     implementation 'com.codeborne:selenide:7.5.1'
 
     // Allure Selenide
@@ -19,37 +19,54 @@ dependencies {
     // WebDriverManager
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
 
-    // REST Assured (для API тестирования)
+    // REST Assured
     testImplementation 'io.rest-assured:rest-assured:5.5.0'
 
-    // Log4j для логирования
-    implementation 'org.apache.logging.log4j:log4j-api:2.24.0'
-    implementation 'org.apache.logging.log4j:log4j-core:2.24.0'
-    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.24.0'
-    implementation 'org.slf4j:slf4j-api:2.0.16'
+    // SLF4J API
+    implementation 'org.slf4j:slf4j-api:2.0.7'
 
-    // JUnit Jupiter (для замены TestNG)
+    // Log4j 2 для логирования
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0'
+
+    // JUnit Jupiter
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
+
 test {
     useJUnitPlatform()
 
-    // Ограничьте количество JVM процессов до 1
+    // Limit the number of JVM processes to 1
     maxParallelForks = 1
 
-    // Включите параллельное выполнение
+    // Enable parallel execution
     systemProperty 'junit.jupiter.execution.parallel.enabled', 'true'
-    systemProperty 'junit.jupiter.execution.parallel.mode.default', 'concurrent'
+
+    // Set default execution mode for test methods to 'same_thread' (sequential execution within a class)
+    systemProperty 'junit.jupiter.execution.parallel.mode.default', 'same_thread'
+
+    // Set default execution mode for test classes to 'concurrent' (parallel execution of classes)
     systemProperty 'junit.jupiter.execution.parallel.mode.classes.default', 'concurrent'
 
-    // Ограничьте до 4 параллельных потоков
+    // Limit to 4 parallel threads (adjust as needed)
     systemProperty 'junit.jupiter.execution.parallel.config.fixed.parallelism', '4'
 
-    // Настройка стратегии
-    systemProperty 'junit.jupiter.execution.parallel.config.strategy', 'dynamic'
+    // Set strategy to 'fixed' to use the fixed parallelism setting
+    systemProperty 'junit.jupiter.execution.parallel.config.strategy', 'fixed'
+
+    // Добавляем настройку для вывода результатов каждого теста
+    testLogging {
+        events "passed", "skipped", "failed"  // Отображать события для прошедших, пропущенных и проваленных тестов
+        exceptionFormat "short"  // Формат исключений (можно использовать "full" для полного стектрейса)
+        showExceptions true  // Показывать исключения
+        showCauses true  // Показывать причины исключений
+        showStackTraces true  // Показывать стектрейсы
+    }
 }
+
 
 tasks.withType(JavaCompile).configureEach {
     options.compilerArgs << "-Xlint:deprecation"
