@@ -5,9 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bd5163-2425-4f81-ac59-af402a48f57e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.222839.107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.222859.678.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.222955.346.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.223018.453.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.223119.117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.223501.242.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.223615.991.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.223959.222.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.224202.756.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.224445.918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225114.076.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225132.312.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225225.731.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225247.708.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225350.477.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225746.338.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.225858.996.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.230253.104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.230452.333.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.232112.253.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.232313.889.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.232351.945.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.232515.105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20240918.232539.535.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProgressBarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ProgressBarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AccordianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AccordianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AlertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AlertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AutoCompleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AutoCompleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BrokenLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BrokenLinksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BrowserWindowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BrowserWindowsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ButtonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ButtonsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DatePickerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DatePickerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DraggableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DraggableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DroppableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DroppableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DynamicPropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DynamicPropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LinksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ModalDialogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ModalDialogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/NestedFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/NestedFrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RadioButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RadioButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ResizableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ResizableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelectMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelectMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelectableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelectableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SortableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SortableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TabsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ToolTipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ToolTipsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UploadDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UploadDownloadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +76,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -68,6 +125,7 @@
     "Gradle.SliderTest.executor": "Run",
     "Gradle.TabsTest.executor": "Run",
     "Gradle.TextBoxTest.executor": "Run",
+    "Gradle.UploadDownloadTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -94,31 +152,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProgressBarTest">
-    <configuration name="AccordianTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.AccordianTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.UploadDownloadTest">
     <configuration name="DynamicPropertiesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,13 +249,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="UploadDownloadTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.UploadDownloadTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UploadDownloadTest" />
         <item itemvalue="Gradle.ProgressBarTest" />
         <item itemvalue="Gradle.SliderTest" />
         <item itemvalue="Gradle.DynamicPropertiesTest" />
         <item itemvalue="Gradle.TabsTest" />
-        <item itemvalue="Gradle.AccordianTest" />
       </list>
     </recent_temporary>
   </component>

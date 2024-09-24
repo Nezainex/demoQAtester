@@ -38,25 +38,7 @@ dependencies {
 
 test {
     useJUnitPlatform()
-
-    // Limit the number of JVM processes to 1
-    maxParallelForks = 1
-
-    // Enable parallel execution
-    systemProperty 'junit.jupiter.execution.parallel.enabled', 'true'
-
-    // Set default execution mode for test methods to 'same_thread' (sequential execution within a class)
-    systemProperty 'junit.jupiter.execution.parallel.mode.default', 'same_thread'
-
-    // Set default execution mode for test classes to 'concurrent' (parallel execution of classes)
-    systemProperty 'junit.jupiter.execution.parallel.mode.classes.default', 'concurrent'
-
-    // Limit to 4 parallel threads (adjust as needed)
-    systemProperty 'junit.jupiter.execution.parallel.config.fixed.parallelism', '4'
-
-    // Set strategy to 'fixed' to use the fixed parallelism setting
-    systemProperty 'junit.jupiter.execution.parallel.config.strategy', 'fixed'
-
+    
     // Добавляем настройку для вывода результатов каждого теста
     testLogging {
         events "passed", "skipped", "failed"  // Отображать события для прошедших, пропущенных и проваленных тестов
